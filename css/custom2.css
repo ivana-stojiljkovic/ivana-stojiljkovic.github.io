@@ -6,7 +6,7 @@ html {
 	-webkit-tap-highlight-color: transparent;
 }
 body {
-overflow: hidden;
+overflow-x: hidden;
        font-family: "Times New Roman", Times, serif;
            font-size: 18px;
            font-weight: bold;
