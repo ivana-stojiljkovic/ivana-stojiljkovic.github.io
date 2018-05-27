@@ -366,7 +366,7 @@ float: right;
 
 @media only screen and (max-width: 767px) {
 	.intro {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.desktop {
 		display: none;
