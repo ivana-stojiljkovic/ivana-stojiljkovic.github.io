@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+html {
+	-webkit-tap-highlight-color: transparent;
+}
+body {
+
+       font-family: "Times New Roman", Times, serif;
+           font-size: 18px;
+           font-weight: bold;
+}
+.hero {
+  display: none;
+}
+.prank {
+    background-image: url(http://bunnylady2.fortunecity.ws/bunhop.jpg);
+  /*display: none;*/
+    min-height: 100vh;
+}
+.col-sm-2 {
+	padding-right: 0;
+	padding-left: 0;
+}
+.center {
+	 width: fit-content;
+    margin: 0 auto;
+
+}
+.center-text {
+	text-align: center;
+}
+
+.right {
+text-align: right;
+}
+
+.left {
+text-align: left;
+}
+img {
+	max-width: 100%;
+}
+h1 {
+    font-size: 35px;
+}
+.wall p {
+	text-align: center;
+}
+
+.separation1 {
+	background-image: url(../gifs/1.gif);
+	height: 45px;
+	width: 100%;
+
+}
+.intro {
+
+	color:rgb(255, 0, 128);
+
+}
+h1,h3 {
+	 font-family: "Times New Roman", Times, serif;
+	 font-weight: bolder;
+}
+
+button {
+	outline: none;
+	margin: 10px auto;
+	 width: 150px;
+
+    font-size: 20px;
+    background: #0007c2;
+    color: aqua;
+  font-weight: bold;
+    border-radius: 10px;
+    -moz-box-shadow: inset 4px 4px 4px rgba(255, 255, 255, .4), inset -4px -4px 4px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 4px 4px 4px rgba(255, 255, 255, .4), inset -4px -4px 4px rgba(0, 0, 0, .4);
+    box-shadow: inset 4px 4px 4px rgba(255, 255, 255, .4), inset -4px -4px 4px rgba(0, 0, 0, .4);
+}
+
+.favoriteTitle {
+	color: white;
+	background-color:rgb(255, 0, 128);
+	text-align: center;
+}
+
+.link img {
+padding: 10px 0;
+}
+.flip {
+	        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+section {
+	height: 100vh;
+	position: relative;
+}
+.hero {
+	font-family: 'Source Code Pro', monospace;
+		font-size: 14px;
+	line-height: 1.5;
+}
+.hero h1 {
+		
+font-family: 'Lato', sans-serif;
+font-weight: 900;
+
+}
+
+.web .row {
+  padding-bottom: 100px;
+}
+
+p {
+	font-size: 17px;
+}
+header {
+	margin: 40px;
+}
+h6 {
+	font-size: 14px;
+	line-height: 1.5;
+}
+.name {
+	width: fit-content;
+    float: left;
+}
+.contact {
+	    max-width: fit-content;
+    float: right;
+}
+.introBig {
+	font-size: 40px;
+
+	 /*   margin: 0;*/
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.introBig2 {
+	font-size: 40px;
+    text-align: center;
+        padding-bottom: 40px;
+}
+.screen {
+  overflow: hidden;
+}
+
+.laptop .device-wrapper {
+max-width: 100%;
+}
+.laptop .screen {
+      background-color: black;
+}
+.phone .device-wrapper {
+max-width: 85%; /*VERY IMPORTANT ----------- CHECK THIS ON VERY BIG SCREENS!!!!!!!!!!!!!!!!!!!!!!!!!*/
+float: right;
+}
+.zoo {
+    padding-top: 30%;
+       text-align: right;
+}
+.spqr {
+    padding-top: 12%;
+        text-align: right;
+}
+.red {
+      padding-top: 35%;
+         text-align: right;
+}
+/*//////////////////////ILLUSTRATION//////////////////////*/
+
+.illu1 .frame {
+  position: relative;
+  width: 100%;
+      padding-bottom: 122.5%;
+  background: black;
+  box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.3);
+}
+
+.illu1 .mat {
+  position: absolute;
+  background: white;
+  top: 3%; bottom: 3%; left: 3%; right: 3%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5) inset;
+}
+
+.illu1 .art {
+    position: absolute;
+    top: 11.129%;
+    bottom: 11.129%;
+    left: 13.158%;
+    right: 13.158%;
+}
+
+.illu1 .art img {
+  width: 100%;
+}
+
+
+
+.illu1 .art:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5) inset;
+}
+
+.illu2{
+	    margin-top: 30px;
+}
+
+.illu2 .frame {
+  position: relative;
+  width: 100%;
+         padding-bottom: 134%;
+  background: black;
+  box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.3);
+}
+
+.illu2 .mat {
+  position: absolute;
+  background: white;
+  top: 3%; bottom: 3%; left: 3%; right: 3%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5) inset;
+}
+
+.illu2 .art {
+    position: absolute;
+    top: 11.129%;
+    bottom: 11.129%;
+    left: 13.158%;
+    right: 13.158%;
+}
+
+.illu2 .art img {
+  width: 100%;
+}
+
+
+
+.illu2 .art:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5) inset;
+}
+
+
+
+
+.illu3 .frame {
+	    
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  background: black;
+  box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.3);
+}
+
+.illu3 .mat {
+  position: absolute;
+  background: white;
+  top: 3%; bottom: 3%; left: 3%; right: 3%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5) inset;
+}
+
+.illu3 .art {
+    position: absolute;
+    top: 13.129%;
+    bottom: 13.129%;
+    left: 13.158%;
+    right: 13.158%;
+}
+
+.illu3 .art img {
+  width: 100%;
+}
+
+
+
+.illu3 .art:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5) inset;
+}
+
+.belgrade {
+	margin-top: -230px;
+}
+
+.illu4 .frame {
+  position: relative;
+  width: 100%;
+  padding-bottom: 130.5%;
+  background: black;
+  box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.3);
+}
+
+.illu4 .mat {
+  position: absolute;
+  background: white;
+  top: 3%; bottom: 3%; left: 3%; right: 3%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5) inset;
+}
+
+.illu4 .art {
+    position: absolute;
+    top: 10.129%;
+    bottom: 10.129%;
+    left: 13.158%;
+    right: 13.158%;
+}
+
+.illu4 .art img {
+  width: 100%;
+}
+
+
+
+.illu4 .art:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5) inset;
+}
+.forest {
+	margin-top: 60px;
+}
+.bluepeople {
+	    margin-top: 85px;
+}
+.kokoske {
+	margin-top: 35px;
+}
+/*//////////////////////ILLUSTRATION END//////////////////////*/
+
+.socialicons-wrapper {
+    max-width: fit-content;
+    position: relative;
+    margin: 20px 0 40px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	.intro {
+		font-size: 22px;
+	}
+	.desktop {
+		display: none;
+	}
+	button {
+		font-size: 30px;
+		height: unset;
+	}
+}
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+.hero {
+	margin-bottom: 300px;
+}
+.hero h1 {
+    font-size: 45px;
+
+}
+}
+
+
+@media screen and (max-width: 767px) {
+    .left, .right {
+        text-align: center;
+    }
+  header {
+    margin: 10%;
+  }
+  .contact {
+    
+    float: left;
+    width: 80%;
+  }
+  .introBig {
+    font-size: 6vw;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  .introBig2 {
+      font-size: 6vw;
+  }
+  .row {
+      text-align: center;
+  }
+  .phone .device-wrapper {
+    max-width: 70%;
+      float: none;
+      margin: 0 auto;
+  }
+
+  .zoo, .spqr, .red {
+      text-align: center;
+  }
+    .zoo img, .spqr img, .red img {
+
+        width: 70%;
+    }
+
+
+    .belgrade, .bluepeople {
+         margin-top: unset;
+    }
+    .belgrade, .morning {
+        margin-top: 60px;
+    }
+    .illu3, .illu4{
+        margin-top: 30px;
+    }
+
+}

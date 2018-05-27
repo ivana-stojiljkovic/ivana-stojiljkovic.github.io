@@ -1,0 +1,98 @@
+.col-sm-2 {
+	padding-right: 0;
+	padding-left: 0;
+}
+.center-text {
+	text-align: center;
+}
+img {
+	max-width: 100%;
+}
+body {
+	background-image: url(http://bunnylady2.fortunecity.ws/bunhop.jpg);
+		   font-family: "Times New Roman", Times, serif;
+		       font-size: 18px;
+		       font-weight: bold;
+}
+.separation1 {
+	background-image: url(../gifs/1.gif);
+	height: 45px;
+	width: 100%;
+
+}
+.intro {
+
+	color:rgb(255, 0, 128);
+	top:-100px;
+}
+h1,h3 {
+	 font-family: "Times New Roman", Times, serif;
+	 font-weight: bolder;
+}
+/*h1 img {
+	vertical-align: unset;
+}*/
+button {
+	outline: none;
+	margin: 10px auto;
+	 width: 150px;
+
+    font-size: 20px;
+    background: #0007c2;
+    color: aqua;
+  font-weight: bold;
+    border-radius: 10px;
+    -moz-box-shadow: inset 4px 4px 4px rgba(255, 255, 255, .4), inset -4px -4px 4px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 4px 4px 4px rgba(255, 255, 255, .4), inset -4px -4px 4px rgba(0, 0, 0, .4);
+    box-shadow: inset 4px 4px 4px rgba(255, 255, 255, .4), inset -4px -4px 4px rgba(0, 0, 0, .4);
+}
+
+.favoriteTitle {
+	color: white;
+	background-color:rgb(255, 0, 128);
+	text-align: center;
+}
+.gifs {
+	   
+    z-index: -1;
+}
+.swing {
+	    top: -46px;
+    z-index: -1;
+}
+.laptop {
+	    top: -5px;
+}
+.white {
+	    top: -105px;
+}
+.right {
+	position: absolute;
+	right: 0;
+}
+.flip {
+	        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+@media only screen and (max-width: 767px) {
+	.intro {
+		font-size: 22px;
+	}
+	.desktop {
+		display: none;
+	}
+	button {
+		font-size: 30px;
+		height: unset;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+
+ }
